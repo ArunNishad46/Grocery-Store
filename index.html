@@ -1,0 +1,1740 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Grocery Store</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header-section">
+        <div class="logo">
+            <a href="#logo"><img src="images/grocery-logo.jpg" alt="logo"></a>
+            <h2 class="brand1">DailyBasket</h2>
+            <h2 class="brand2">DB</h2>
+        </div>
+        <nav class="navbar">
+            <a class="active" href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#products">Products</a>
+            <a href="#categories">Categories</a>
+            <a href="#review">Review</a>
+            <a href="#order">Order</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+        <div class="icons">
+            <i class="fa-solid fa-bars" id="menu-btn"></i>
+            <i class="fa-solid fa-magnifying-glass" id="search-btn"></i>
+            <a href="#"><i class="fa-solid fa-cart-shopping" id="shopping-btn"></i></a>
+            <a href="#"><i class="fa-solid fa-user" id="login-btn"></i></a>
+        </div>
+        <form action="#" class="search">
+            <input type="search" id="search-bar" placeholder="search...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+        <form action="#" class="login-form">
+            <h3>Login Your Account</h3>
+            <input type="email" placeholder="enter your email..." id="email" class="email-input" required>
+            <input type="password" placeholder="enter your password..." id="password" class="password-input" required>
+            <button class="login-btn">Login</button>
+            <div class="extra-links">
+                <a href="#">Forgot Password?</a>
+                <a href="#">Create Account</a>
+            </div>
+        </form>
+    </header>
+
+    <section id="container">
+        <div class="swiper mySwiper home-wrapper">
+            <div class="swiper-wrapper home-slider">
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <h1>Fresh Grocery Shopping</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, quis!</p>
+                        <a href="#" class="btn">Shop Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/front-image.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <h1>Shop Online For Fresh Grocries</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam, voluptatem?</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/front-image3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <h1>Free & Fast Delivery</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, assumenda?</p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/front-image2.webp" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section class="service-section">
+        <h1 class="heading">Our <span>Services</span></h1>
+        <div class="card-container">
+            <div class="card">
+                <img src="images/service-image1.avif" alt="image1">
+                <h3>Fresh Vegetables</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio maxime quae consequuntur, assumenda facere vero?</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="card">
+                <img src="images/service-image2.webp" alt="">
+                <h3>Online Shopping</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, provident quidem? Voluptates architecto minima eaque.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="card">
+                <img src="images/delivery.png" alt="">
+                <h3>Free Delivery</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio maxime quae consequuntur, assumenda facere vero?</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="card">
+                <img src="images/service-image3.avif" alt="">
+                <h3>Online Payments</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio maxime quae consequuntur, assumenda facere vero?</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="product-section">
+        <h1 class="heading">Our <span>Products</span></h1>
+        <div class="product-container">
+            <h2>Fresh Fruits & Vegetables</h2>
+            <div class="swiper mySwiper product-slider">
+                <div class="swiper-wrapper product-wrapper">
+                    <div class="swiper-slide product-card">
+                        <img src="images/patato.jpg" alt="">
+                        <p class="name">Fresh Potato</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>60</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/Tomato.webp" alt="">
+                        <p class="name">Fresh Tomato</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>60</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/apple.jpg" alt="">
+                        <p class="name">Fresh Apple</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>60</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/BottleGourd.webp" alt="">
+                        <p class="name">Fresh BottleGourd</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>60</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/bananas.jpeg" alt="">
+                        <p class="name">Fresh Banana</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>60</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/Broccoli.webp" alt="">
+                        <p class="name">Fresh Broccoli</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>60</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/cherry.webp" alt="">
+                        <p class="name">Fresh Cherry</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>60</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/Capsicum-Green.jpg" alt="">
+                        <p class="name">Green Capsicum</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>60</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/carrots.jpg" alt="">
+                        <p class="name">Orange Carrot</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>60</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/grapes.jpg" alt="">
+                        <p class="name">Fresh Grapes</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>60</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/greenpeas.webp" alt="">
+                        <p class="name">Green Peas</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>60</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/Cabbage.jpeg" alt="">
+                        <p class="name">Fresh Cabbage</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>60</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/Cucumber.webp" alt="">
+                        <p class="name">Fresh Cucumber</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>60</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/Guava.webp" alt="">
+                        <p class="name">Fresh Guava</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>60</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/kiwi.jpg" alt="">
+                        <p class="name">Fresh Kiwi</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>60</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/cauliflower.jpg" alt="">
+                        <p class="name">Fresh Cauliflower</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>60</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/Coriander.webp" alt="">
+                        <p class="name">Fresh Coriander</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>60</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/mango.jpg" alt="">
+                        <p class="name">Fresh Mango</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>60</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/Oranges.webp" alt="">
+                        <p class="name">Fresh Orange</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>60</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/fresh-brinjal.jpg" alt="">
+                        <p class="name">Fresh Brinjal</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>60</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/garlic.jpeg" alt="">
+                        <p class="name">Fresh Garlic</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>60</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/ginger.jpeg" alt="">
+                        <p class="name">Fresh Ginger</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>60</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/onions.jpg" alt="">
+                        <p class="name">Fresh Onion</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>60</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/palak.webp" alt="">
+                        <p class="name">Fresh Palak</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>60</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/papaya.webp" alt="">
+                        <p class="name">Fresh Papaya</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>60</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/pineapple.jpg" alt="">
+                        <p class="name">Fresh Pineapple</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>60</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/pomegranates.jpg" alt="">
+                        <p class="name">Fresh Pomegranate</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>60</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/strawberry.jpeg" alt="">
+                        <p class="name">Fresh Strawberry</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>60</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/Sweet_Corn.webp" alt="">
+                        <p class="name">Fresh Corn</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>60</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/sweetpotato.webp" alt="">
+                        <p class="name">Fresh Sweetpatato</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>60</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/Water-Chestnut.jpg" alt="">
+                        <p class="name">Fresh Chestnut</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>60</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/watermelon.jpg" alt="">
+                        <p class="name">Fresh Watermelon</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>60</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+        <div class="product-container">
+            <h2>Fresh Meat & Fish</h2>
+            <div class="swiper product-slider">
+                <div class="swiper-wrapper product-wrapper">
+                    <div class="swiper-slide product-card">
+                        <img src="images/chicken-meat1.webp" alt="">
+                        <p class="name">Fresh Chicken</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>220</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/chicken-meat2.webp" alt="">
+                        <p class="name">chicken Meat</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>200</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/chicken-leg1.webp" alt="">
+                        <p class="name">Chicken Leg</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>250</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/Chicken_Liver.jpg" alt="">
+                        <p class="name">Chicken Liver</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>60</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/chicken-heart.jpeg" alt="">
+                        <p class="name">Chicken Heart</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>280</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/fresh-fish.jpg" alt="">
+                        <p class="name">Fresh Fish</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>200</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/fish-meat.webp" alt="">
+                        <p class="name">Fish Meat</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>220</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/fish-small.jpg" alt="">
+                        <p class="name">Small Fish</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>180</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/freshfish.jpg" alt="">
+                        <p class="name">Fresh Fish</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>240</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+        <div class="product-container">
+            <h2>Bakery & Dairy Products</h2>
+            <div class="swiper product-slider">
+                <div class="swiper-wrapper product-wrapper">
+                    <div class="swiper-slide product-card">
+                        <img src="images/amul-butter.webp" alt="">
+                        <p class="name">Amul Butter</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>50</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/Amul-chhachh.png" alt="">
+                        <p class="name">Amul Chhachh</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>20</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/amul-milk.webp" alt="">
+                        <p class="name">Amul Milk</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>40</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/Amul-taaza.webp" alt="">
+                        <p class="name">Amul-Taaza Milk</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>56</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/bonn-cake.jpeg" alt="">
+                        <p class="name">Bonn Cake</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>35</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/bread_sandwich.jpg" alt="">
+                        <p class="name">Sandwich Bread</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>60</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/breakfast-bread.webp" alt="">
+                        <p class="name">Breakfast Bread</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>80</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/chocolate-cake.avif" alt="">
+                        <p class="name">Chocolate Cake</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>45</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/chocolate-ice-cream.jpeg" alt="">
+                        <p class="name">Chocolate Ice-Cream</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>120</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/dairy-paneer.webp" alt="">
+                        <p class="name">Fresh Paneer</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>375/kg</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/eggs.webp" alt="">
+                        <p class="name">Fresh Eggs</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>20</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/fruits-jam.jpg" alt="">
+                        <p class="name">Fruits Jam</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>180</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/ice-cream.jpg" alt="">
+                        <p class="name">Ice-Cream</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>125</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/patanjali-ghee.jpeg" alt="">
+                        <p class="name">Patanjali Ghee</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>300</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/tomato-ketchup.jpg" alt="">
+                        <p class="name">Kisaan Ketchup</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>130</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+        <div class="product-container">
+            <h2>Kitchen Products</h2>
+            <div class="swiper product-slider">
+                <div class="swiper-wrapper product-wrapper">
+                    <div class="swiper-slide product-card">
+                        <img src="images/aata.webp" alt="">
+                        <p class="name">Fresh Chakki Aata</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>450</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/arhar-dal.jpg" alt="">
+                        <p class="name">Arhar Dal</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>190</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/coriander-powder.jpeg" alt="">
+                        <p class="name">Coriander Powder</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>50</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/fortune-soyabean-oil.jpeg" alt="">
+                        <p class="name">Soyabean Oil</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>560</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/garam-masala.jpeg" alt="">
+                        <p class="name">Garam Masala</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>80</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/ginger-garlic-paste.webp" alt="">
+                        <p class="name">Ginger-Garlic Paste</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>50</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/kachi-ghani-oil.jpg" alt="">
+                        <p class="name">Kachi-Ghani Oil</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>200</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/maggi.jpg" alt="">
+                        <p class="name">Special Maggi</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>40</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/maggi-masala.webp" alt="">
+                        <p class="name">Maggi Masala</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>10</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/mdh-kitchen-king.jpeg" alt="">
+                        <p class="name">Kitchen-King Masala</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>80</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/meat-masala.jpg" alt="">
+                        <p class="name">Meat Masala</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>20</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/red-chilli-powder.jpg" alt="">
+                        <p class="name">Chilli Powder</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>50</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/rice-bag.avif" alt="">
+                        <p class="name">Fresh Rice</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>36/Kg</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/sugar.jpg" alt="">
+                        <p class="name">Fresh Sugar</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>42/Kg</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/taaza-tea.jpg" alt="">
+                        <p class="name">Taaza Tea</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>60</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/tata-salt.jpg" alt="">
+                        <p class="name">Tata Salt</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>26</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/turmeric-powder.jpg" alt="">
+                        <p class="name">Turmeric Powder</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>20</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+        <div class="product-container">
+            <h2>Sweets, Biscuits & Namkeen</h2>
+            <div class="swiper product-slider">
+                <div class="swiper-wrapper product-wrapper">
+                    <div class="swiper-slide product-card">
+                        <img src="images/allo-bhujia.jpeg" alt="">
+                        <p class="name">Allo Bhujia</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>120</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/bhelpuri.webp" alt="">
+                        <p class="name">Special Bhelpuri</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>80</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/bourbon-biscuit.webp" alt="">
+                        <p class="name">Bourbon Biscuit</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>30</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/chana-dal-namkeen.avif" alt="">
+                        <p class="name">Chana Dal</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>55</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/crispy-salty-biscuit.webp" alt="">
+                        <p class="name">Salted Biscuit</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>15</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/gajar-ka-halwa.jpg" alt="">
+                        <p class="name">Gajar Ka Halwa</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>95</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/good-day.jpeg" alt="">
+                        <p class="name">Good-Day Biscuit</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>60</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/gulab-jamun.jpg" alt="">
+                        <p class="name">Gulab Jamun</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>200</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/haldiram.webp" alt="">
+                        <p class="name">Haldiram Namkeen</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>100</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/JILEBI.jpg" alt="">
+                        <p class="name">Jilebi</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>125</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/kaju-katli.jpg" alt="">
+                        <p class="name">Kaju Katli</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>225</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/kurkure.jpg" alt="">
+                        <p class="name">Kurkure</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>20</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/laddu.avif" alt="">
+                        <p class="name">Yellow Laddu</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>175</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/laung-latta.webp" alt="">
+                        <p class="name">Laung Latta</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>230</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/marie-gold.jpg" alt="">
+                        <p class="name">Marie Gold</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>50</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/masala-matar.jpg" alt="">
+                        <p class="name">Masala Matar</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>98</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/oreo-cream-biscuit.jpeg" alt="">
+                        <p class="name">Oreo Cream</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>80</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/parle-g.jpg" alt="">
+                        <p class="name">Parle-G</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>40</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/potato-chips.jpg" alt="">
+                        <p class="name">Potato Chips</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>50</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/rasmalai.jpg" alt="">
+                        <p class="name">Rasmalai</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>350</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide product-card">
+                        <img src="images/Soan-papdi.webp" alt="">
+                        <p class="name">Soan Papdi</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="price">
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>180</p>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="categories-section">
+        <h1 class="heading">Our <span>Category</span></h1>
+        <div class="categories-slider">
+            <div class="categories-wrapper">
+                <div class="categories-card">
+                    <img src="images/fruits-vegetables.jpg" alt="image">
+                    <h3>Fruits & Vegetables</h3>
+                    <p>upto 15% off</p>
+                    <a href="#">Shop Now</a>
+                </div>
+                <div class="categories-card">
+                    <img src="images/meat-fish.jpeg" alt="image">
+                    <h3>Meat & Fish</h3>
+                    <p>upto 10% off</p>
+                    <a href="#">Shop Now</a>
+                </div>
+                <div class="categories-card">
+                    <img src="images/bakery-products.avif" alt="image">
+                    <h3>Bakery Products</h3>
+                    <p>upto 50% off</p>
+                    <a href="#">Shop Now</a>
+                </div>
+                <div class="categories-card">
+                    <img src="images/dairy-products.jpg" alt="image">
+                    <h3>Dairy Products</h3>
+                    <p>upto 10% off</p>
+                    <a href="#">Shop Now</a>
+                </div>
+                <div class="categories-card">
+                    <img src="images/kitchen-products.webp" alt="image">
+                    <h3>Kitchen Products</h3>
+                    <p>upto 20% off</p>
+                    <a href="#">Shop Now</a>
+                </div>
+                <div class="categories-card">
+                    <img src="images/sweets_products.jpg" alt="image">
+                    <h3>Indian Sweets</h3>
+                    <p>upto 25% off</p>
+                    <a href="#">Shop Now</a>
+                </div>
+                <div class="categories-card">
+                    <img src="images/biscuit-namkeen.jpeg" alt="image">
+                    <h3>Biscuit & Namkeen</h3>
+                    <p>upto 45% off</p>
+                    <a href="#">Shop Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="review-section">
+        <h1 class="heading">Customer's <span>Review</span></h1>
+        <p class="heading1">WHAT THEY SAY</p>
+        <div class="review-slider">
+            <div class="review-card">
+                <div class="customer-details">
+                    <img src="images/john-smith.avif" alt="customer-image">
+                    <div class="name">
+                        <h3>John Smith</h3>
+                        <div class="review-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus dolores ullam amet nesciunt ducimus recusandae. Molestiae maxime, iusto harum autem culpa beatae natus odit nam! Accusantium aspernatur sit quod harum!</p>
+            </div>
+            <div class="review-card">
+                <div class="customer-details">
+                    <img src="images/Emily-johnson.avif" alt="customer-image">
+                    <div class="name">
+                        <h3>Emily Johnson</h3>
+                        <div class="review-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus dolores ullam amet nesciunt ducimus recusandae. Molestiae maxime, iusto harum autem culpa beatae natus odit nam! Accusantium aspernatur sit quod harum!</p>
+            </div>
+            <div class="review-card">
+                <div class="customer-details">
+                    <img src="images/michael-brown.avif" alt="customer-image">
+                    <div class="name">
+                        <h3>Michael Brown</h3>
+                        <div class="review-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus dolores ullam amet nesciunt ducimus recusandae. Molestiae maxime, iusto harum autem culpa beatae natus odit nam! Accusantium aspernatur sit quod harum!</p>
+            </div>
+            <div class="review-card">
+                <div class="customer-details">
+                    <img src="images/sophia-davis.jpg" alt="customer-image">
+                    <div class="name">
+                        <h3>Sophia Davis</h3>
+                        <div class="review-star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus dolores ullam amet nesciunt ducimus recusandae. Molestiae maxime, iusto harum autem culpa beatae natus odit nam! Accusantium aspernatur sit quod harum!</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-box">
+                <div class="footer-logo">
+                    <img src="images/grocery-logo.jpg" alt="logo">
+                    <h3>DailyBasket</h3>
+                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste cupiditate, tenetur consequatur numquam alias quidem velit error maiores voluptatum earum.</p>
+                <div class="icons">
+                    <a href="#" class="fa-brands fa-instagram"></a>
+                    <a href="#" class="fa-brands fa-x-twitter"></a>
+                    <a href="#" class="fa-brands fa-linkedin"></a>
+                    <a href="#" class="fa-brands fa-github"></a>
+                    <a href="#" class="fa-brands fa-facebook"></a>
+                </div>
+            </div>
+            <div class="footer-box">
+                <h3>Quick Links</h3>
+                <a href="#" class="link"><i class="fa-solid fa-angle-right"></i>Home</a>
+                <a href="#" class="link"><i class="fa-solid fa-angle-right"></i>Services</a>
+                <a href="#" class="link"><i class="fa-solid fa-angle-right"></i>Products</a>
+                <a href="#" class="link"><i class="fa-solid fa-angle-right"></i>Categories</a>
+                <a href="#" class="link"><i class="fa-solid fa-angle-right"></i>Review</a>
+            </div>
+            <div class="footer-box">
+                <h3>Contact Info</h3>
+                <a href="#" class="link"><i class="fa-solid fa-phone"></i>+91-111-2480054</a>
+                <a href="#" class="link"><i class="fa-solid fa-phone"></i>+91-111-2489201</a>
+                <a href="#" class="link"><i class="fa-solid fa-envelope"></i>official@dailybasket.ac.in</a>
+                <a href="#" class="link"><i class="fa-solid fa-envelope"></i>customerhelps@gmail.com</a>
+                <a href="#" class="link"><i class="fa-solid fa-location-dot"></i>Meerut, Uttar Pradesh - 250004</a>
+            </div>
+        </div>
+        <div class="credit">
+            <p>&copy2024 DailyBasket All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
