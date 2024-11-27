@@ -1,6 +1,6 @@
 # Responsive Grocery Store Website
-use technologt - 
-HTML, CSS, JavaScript
+use technology - 
+HTML, CSS, JavaScript,
 Swipper js
 
 
