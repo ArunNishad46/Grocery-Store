@@ -452,6 +452,7 @@ header .login-form.active{
     background-color: var(--blue);
     color: #fff;
     border-radius: 8px;
+    cursor: pointer;
     transition: 0.5s all ease;
 }
 .product-section .product-container .product-slider .product-wrapper .product-card .price .add-btn:hover{
