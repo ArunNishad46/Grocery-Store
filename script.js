@@ -77,13 +77,13 @@ const product_swiper = new Swiper(".product-slider", {
   },
   breakpoints: {
     0: {
-      slidesPerView: 1
-    },
-    520: {
       slidesPerView: 2
     },
-    768: {
+    520: {
       slidesPerView: 3
+    },
+    768: {
+      slidesPerView: 4
     },
     1020: {
       slidesPerView: 5

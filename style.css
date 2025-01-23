@@ -413,20 +413,21 @@ header .login-form.active{
     box-shadow: var(--box-shadow);
 }
 .product-section .product-container .product-slider .product-wrapper .product-card img{
-    width: 200px;
+    width: 150px;
+    height: 150px;
     margin: 10px;
     aspect-ratio: 3/2;
     object-fit: contain;
     mix-blend-mode: darken;
 }
 .product-section .product-container .product-slider .product-wrapper .product-card .name{
-    font-size: 20px;
+    font-size: 18px;
     color: var(--blue);
     padding: 5px 10px;
 }
 .product-section .product-container .product-slider .product-wrapper .product-card .rating{
     color: orange;
-    font-size: 18px;
+    font-size: 16px;
     padding: 5px 10px;
 }
 .product-section .product-container .product-slider .product-wrapper .product-card .price{
@@ -434,24 +435,24 @@ header .login-form.active{
     justify-content: center;
     align-items: center;
     gap: 30px;
-    padding: 20px;
+    padding: 15px;
 }
 .product-section .product-container .product-slider .product-wrapper .product-card .price p{
-    font-size: 22px;
+    font-size: 20px;
     color: #259e57;
     font-weight: bold;
 }
 .product-section .product-container .product-slider .product-wrapper .product-card .price p i{
-    font-size: 20px;
+    font-size: 18px;
     padding: 0px 2px;
 }
 .product-section .product-container .product-slider .product-wrapper .product-card .price .add-btn{
-    font-size: 18px;
-    padding: 10px 30px;
+    font-size: 16px;
+    padding: 8px 26px;
     border: none;
     background-color: var(--blue);
     color: #fff;
-    border-radius: 8px;
+    border-radius: 6px;
     cursor: pointer;
     transition: 0.5s all ease;
 }
